@@ -1,0 +1,68 @@
+body{
+    background: linear-gradient(rgb(237, 2, 2),rgb(27, 14, 14));
+}
+.hehe{
+    display:flex;
+    justify-self: center;
+    align-content: center;
+    justify-content: center;
+    align-self: center;
+}
+.rotatingBrick{
+    width:20px;
+    height: auto;
+    animation: spin 0.5s linear infinite;
+    padding: 40px;
+    padding-top: 0px;
+}
+@keyframes spin{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+.evilKate{
+    display: flex;
+    padding: 20px;
+}
+.evilKateText{
+    display: block;
+    margin: 15px;
+    padding: 15px;
+}
+.GEOLOGY{
+    background-color: rgb(27, 224, 27);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+.geology{
+    background-color: green;
+    margin: 10px;
+    padding: 5px;
+    justify-content: center;
+    align-self: center;
+    align-items: center;
+}
+h1 {
+  font-family: "Monoton", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  text-shadow: 5px 5px 0 rgb(127, 85, 85), 10px 10px 0 rgb(23, 175, 165), 15px 15px 0 rgb(139, 5, 248);
+}
+p{
+  font-family:  "Rye", serif; 
+  font-weight: 500;
+  font-style: normal;
+  animation: beep 67s linear infinite;
+}
+@keyframes beep{
+    from{
+        transform: rotateY(0deg);
+    }
+    to{
+        transform: rotateY(360deg);
+    }
+}
